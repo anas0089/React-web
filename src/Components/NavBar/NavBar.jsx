@@ -1,12 +1,12 @@
 import React from 'react';
 
-import './Header.css';
+import './NavBar.css';
 import OlxLogo from '../../assets/OlxLogo';
 import Search from '../../assets/Search';
 import Arrow from '../../assets/Arrow';
 import SellButton from '../../assets/SellButton';
 import SellButtonPlus from '../../assets/SellButtonPlus';
-function Header() {
+function NavBar() {
   return (
     <div className="headerParentDiv">
       <div className="headerChildDiv">
@@ -50,4 +50,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default NavBar;
