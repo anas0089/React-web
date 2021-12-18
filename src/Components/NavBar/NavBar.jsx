@@ -1,53 +1,24 @@
-import React from 'react';
-
-import './NavBar.css';
-import OlxLogo from '../../assets/OlxLogo';
-import Search from '../../assets/Search';
-import Arrow from '../../assets/Arrow';
-import SellButton from '../../assets/SellButton';
-import SellButtonPlus from '../../assets/SellButtonPlus';
-function NavBar() {
-  return (
-    <div className="headerParentDiv">
-      <div className="headerChildDiv">
-        <div className="brandName">
-          <OlxLogo></OlxLogo>
-        </div>
-        <div className="placeSearch">
-          <Search></Search>
-          <input type="text" />
-          <Arrow></Arrow>
-        </div>
-        <div className="productSearch">
-          <div className="input">
-            <input
-              type="text"
-              placeholder="Find car,mobile phone and more..."
-            />
-          </div>
-          <div className="searchAction">
-            <Search color="#ffffff"></Search>
-          </div>
-        </div>
-        <div className="language">
-          <span> ENGLISH </span>
-          <Arrow></Arrow>
-        </div>
-        <div className="loginPage">
-          <span>Login</span>
-          <hr />
-        </div>
-
-        <div className="sellMenu">
-          <SellButton></SellButton>
-          <div className="sellMenuContent">
-            <SellButtonPlus></SellButtonPlus>
-            <span>SELL</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-export default NavBar;
+<div className="NavBar" >
+		<div className="Logoplace" >
+			<a href="/" >
+				<img src="https://telegra.ph/file/31d2524903d8bea2552fc.jpg">
+			</a>
+			<div className="catacry" >
+				<a href="/" >
+				Movies
+				</a>
+				<a href="/" >
+				Series
+				</a>
+				<a href="/" >
+				Comedy
+				</a>
+			</div>
+		</div>
+		<div className="serchbox" >
+			<form className="example" action="action_page.php">
+			<input type="text" placeholder="Search.." name="search" required>
+			<button type="submit"><i class="fa fa-search"></i></button>
+			</form>
+		</div>
+	</div>
