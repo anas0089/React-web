@@ -1,6 +1,6 @@
 import React from 'react';
-import Banner from './Components/Banner/Banner'
-import NavBar from './Components/NavBar/NavBar';
+import Banner from '../Components/Banner/Banner'
+import NavBar from '../Components/NavBar/NavBar';
 
 
 function Home(props) {
