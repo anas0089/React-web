@@ -1,6 +1,6 @@
 import React from 'react';
-
-import NavBar from '../Components/NavBar/NavBar';
+import Banner from './Components/Banner/Banner'
+import NavBar from './Components/NavBar/NavBar';
 
 
 function Home(props) {
@@ -9,6 +9,7 @@ function Home(props) {
 
     <div className="homeParentDiv">
     <NavBar />
+    <Banner />
     </div>
 
   );
