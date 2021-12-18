@@ -1,3 +1,6 @@
+import React from 'react'
+
+import "./NavBar.css";
 <div className="NavBar" >
 		<div className="Logoplace" >
 			<a href="/" >
@@ -22,3 +25,4 @@
 			</form>
 		</div>
 	</div>
+export default NavBar
